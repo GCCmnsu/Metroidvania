@@ -4,10 +4,35 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprite>sprites\spr_Player</sprite>
+    <sprite>sprites\spr_Enemy</sprite>
+    <sprite>sprites\spr_Wall</sprite>
+    <sprite>sprites\spr_Spring</sprite>
+    <sprite>sprites\spr_Patrol</sprite>
+    <sprite>sprites\spr_CheckPoint</sprite>
+    <sprite>sprites\spr_Spikes</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\Kill_Player.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\Player</object>
+    <object>objects\Wall</object>
+    <object>objects\Spring</object>
+    <object>objects\Enemy</object>
+    <object>objects\Patrol_Path</object>
+    <object>objects\CheckPoint</object>
+    <object>objects\Spikes</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
