@@ -15,6 +15,16 @@
     <sprite>sprites\spr_Patrol</sprite>
     <sprite>sprites\spr_CheckPoint</sprite>
     <sprite>sprites\spr_Spikes</sprite>
+    <sprite>sprites\spr_Spikes_Piston</sprite>
+    <sprite>sprites\spr_Conveyor_Edge</sprite>
+    <sprite>sprites\spr_Conveyor</sprite>
+    <sprite>sprites\spr_Platform</sprite>
+    <sprite>sprites\spr_Flamethrower</sprite>
+    <sprite>sprites\spr_Magnet</sprite>
+    <sprite>sprites\spr_Button</sprite>
+    <sprite>sprites\spr_Door</sprite>
+    <sprite>sprites\spr_Cannon</sprite>
+    <sprite>sprites\spr_Plasma</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -29,6 +39,15 @@
     <object>objects\Patrol_Path</object>
     <object>objects\CheckPoint</object>
     <object>objects\Spikes</object>
+    <object>objects\Conveyor_Edge</object>
+    <object>objects\Conveyor</object>
+    <object>objects\Platform</object>
+    <object>objects\Flamethrower</object>
+    <object>objects\Flames</object>
+    <object>objects\Magnet</object>
+    <object>objects\Door</object>
+    <object>objects\Cannon</object>
+    <object>objects\Plasma</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
