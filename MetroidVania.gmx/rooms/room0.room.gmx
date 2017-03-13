@@ -41,6 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
+
     <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="400" vborder="300" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -53,26 +54,52 @@
   <instances>
     <instance objName="Wall" x="96" y="320" name="inst_9532E526" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="256" y="336" name="inst_007AAE5B" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="336" y="352" name="inst_B884E018" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="336" y="352" name="inst_B884E018" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="416" y="368" name="inst_FA3CFB9D" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="432" y="272" name="inst_CBB5DC6B" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="448" y="272" name="inst_D42B5AB2" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="448" y="272" name="inst_D42B5AB2" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="352" y="176" name="inst_B9C9B41F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Player" x="872" y="152" name="inst_6C39E265" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Player" x="212" y="296" name="inst_6C39E265" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="416" y="352" name="inst_592C0E07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Patrol_Path" x="488" y="272" name="inst_5AA6C9B8" locked="0" code="" scaleX="14" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Enemy" x="496" y="272" name="inst_96BC4242" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="624" y="272" name="inst_06039E56" locked="0" code="" scaleX="12.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="624" y="272" name="inst_06039E56" locked="0" code="" scaleX="13.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Patrol_Path" x="696" y="272" name="inst_FEB55C61" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Enemy" x="704" y="272" name="inst_04E6E3FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="608" y="272" name="inst_157172B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="824" y="272" name="inst_7B232D46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="840" y="184" name="inst_CC21882A" locked="0" code="" scaleX="1" scaleY="6.5" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="856" y="184" name="inst_6A79CB65" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="944" y="216" name="inst_20EF0E0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Patrol_Path" x="936" y="216" name="inst_DB16B77F" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="936" y="216" name="inst_0B75C3BB" locked="0" code="" scaleX="6.5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="1040" y="184" name="inst_FC910474" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="Spikes" x="960" y="216" name="inst_20EF0E0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="956" y="216" name="inst_DB16B77F" locked="0" code="" scaleX="21.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="952" y="248" name="inst_0B75C3BB" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="1128" y="184" name="inst_FC910474" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="Spikes" x="960" y="248" name="inst_09CE1881" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="956" y="248" name="inst_E0C1FBC3" locked="0" code="" scaleX="21.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spring" x="1112" y="248" name="inst_26AF6CA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="936" y="184" name="inst_EED83F63" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="Conveyor_Edge" x="1144" y="184" name="inst_C112DA08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Conveyor" x="1152" y="184" name="inst_C804F60D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Conveyor" x="1160" y="184" name="inst_16F7D75F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Conveyor" x="1168" y="184" name="inst_B942D2F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Conveyor" x="1176" y="184" name="inst_9B9B0F14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Conveyor" x="1184" y="184" name="inst_B6C68C17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Conveyor_Edge" x="1200" y="184" name="inst_D4E98C98" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Platform" x="312" y="272" name="inst_4193CBB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="296" y="272" name="inst_0CEFC3C2" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Flamethrower" x="96" y="304" name="inst_C9D896E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Flamethrower" x="96" y="288" name="inst_8551E393" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Flamethrower" x="96" y="272" name="inst_4E7C6D9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Flames" x="112" y="272" name="inst_9F04FAE4" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Flames" x="112" y="288" name="inst_5826DA55" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Flames" x="112" y="304" name="inst_D701A850" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Magnet" x="320" y="176" name="inst_6B31D0DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Door" x="80" y="224" name="inst_A62D1506" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="1232" y="184" name="inst_236AF102" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="1328" y="184" name="inst_4191BEFF" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Platform" x="1248" y="184" name="inst_BCCF748F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Platform" x="1344" y="184" name="inst_899B7DF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Cannon" x="352" y="160" name="inst_45FA1260" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>player_speed = 3;
+player_jump_height = 0//-3.1;
+player_jump_speed = -4.2;
 global.checkpoint_x = x;
 global.checkpoint_y = y;
 </string>
@@ -77,6 +79,12 @@ else
 //set gravity to fall
 gravity = .15;
 }
+
+//conveyor belts
+if(collision_rectangle(x-8,y+1,x+8,y+1,Conveyor,true,false)) //check if conveyor underneath you
+{
+x += (collision_rectangle(x-8,y+1,x+8,y+1,Conveyor,true,false)).conveyor_rotation_speed;
+}
 </string>
           </argument>
         </arguments>
@@ -123,7 +131,7 @@ global.checkpoint_y = other.y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!collision_rectangle(x+8,y-1,x+10,y-32,Wall,true,false))
+            <string>if(!collision_rectangle(x+8,y-1,x+10,y-32,Wall,false,false))
 {
 x+=2;
 }
@@ -149,10 +157,34 @@ x+=2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!collision_rectangle(x-8,y-1,x-10,y-32,Wall,true,false))
+            <string>if(!collision_rectangle(x-8,y-1,x-10,y-32,Wall,false,false))
 {
 x-=2;
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self();
+draw_text(view_xview[0],view_yview[0],"FPS: " + string(fps));
 </string>
           </argument>
         </arguments>
@@ -204,8 +236,8 @@ image_yscale = abs(image_yscale);
             <kind>1</kind>
             <string>if(collision_rectangle(x-8,y+3,x+8,y+3,Wall,true,false))
 {
-vspeed = -4.2;
-y-=3.1;
+vspeed = player_jump_speed;
+y-= player_jump_height;
 }
 </string>
           </argument>
