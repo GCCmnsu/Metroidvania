@@ -26,6 +26,7 @@
     <sprite>sprites\spr_Cannon</sprite>
     <sprite>sprites\spr_Plasma</sprite>
     <sprite>sprites\spr_health</sprite>
+    <sprite>sprites\spr_Lava</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -50,6 +51,8 @@
     <object>objects\Door</object>
     <object>objects\Cannon</object>
     <object>objects\Plasma</object>
+    <object>objects\Tracking_Cannon</object>
+    <object>objects\Lava</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

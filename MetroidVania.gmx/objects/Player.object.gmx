@@ -76,7 +76,7 @@ global.player_iframes = max(0,global.player_iframes - 1)
 //spring code
 if(collision_rectangle(x-8,y+3,x+8,y+3,Spring,true,false))
 {
-global.player_vertical_speed = -12;
+global.player_vertical_speed = (collision_rectangle(x-8,y+3,x+8,y+3,Spring,true,false)).spring_jump_speed
 }
 
 //Apply gravity and movement
@@ -178,7 +178,7 @@ global.checkpoint_y = other.y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!collision_rectangle(x+8,y-1,x+(8+global.player_speed),y-32,Wall,false,false))
+            <string>if(!collision_rectangle(x+8,y-1,x+(8+global.player_speed),y-32,Wall,true,false))
 {
 x+= global.player_speed;
 }
@@ -204,7 +204,7 @@ x+= global.player_speed;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!collision_rectangle(x-8,y-1,x-(8+global.player_speed),y-32,Wall,false,false))
+            <string>if(!collision_rectangle(x-8,y-1,x-(8+global.player_speed),y-32,Wall,true,false))
 {
 x-= global.player_speed;
 }

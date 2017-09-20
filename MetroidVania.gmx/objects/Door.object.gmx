@@ -53,7 +53,7 @@ alarm[0]=30;
           <argument>
             <kind>1</kind>
             <string>door_is_open = 1 - door_is_open;
-alarm[0] = 30;
+alarm[0] = 90;
 </string>
           </argument>
         </arguments>
