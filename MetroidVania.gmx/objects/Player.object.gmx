@@ -34,6 +34,10 @@ global.checkpoint_y = y;
 global.player_lastx = x;
 global.player_lasty = y;
 
+global.player_health = 3
+global.player_health_max = 3
+global.player_iframes = 0  //number of invulnerability frames. 
+
 // jumping related variables
 global.player_vertical_speed = 0;
 global.player_gravity = .4
@@ -65,6 +69,9 @@ global.player_doublejump = true // true if can doublejump
             <kind>1</kind>
             <string>global.player_lastx = x;
 global.player_lasty = y;
+
+//decrement iframes
+global.player_iframes = max(0,global.player_iframes - 1)
 
 //spring code
 if(collision_rectangle(x-8,y+3,x+8,y+3,Spring,true,false))
@@ -223,7 +230,27 @@ x-= global.player_speed;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_self();
+            <string>//reset draw alpha
+draw_set_alpha(1)
+
+//show player as transparent+red if invulnerable, else draw normal
+if(global.player_iframes &gt; 0)                                              
+    draw_sprite_ext(spr_Player,0,x,y,1,1,0,c_red,.7)
+else
+    draw_sprite_ext(spr_Player,0,x,y,1,1,0,c_white,1)
+
+
+
+//draw health
+var dx = 0;
+repeat(global.player_health)
+{
+draw_sprite(spr_health,0,view_xview[0]+33+dx,view_yview[0]+10);
+dx += 40
+}
+
+
+//draw fps
 draw_text(view_xview[0],view_yview[0],"FPS: " + string(fps));
 </string>
           </argument>

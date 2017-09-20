@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>image_speed = 0;
 cannon_is_on = 1; //0 if off, 1 if on
-cannon_delay = 60; //refire timer for cannon
+cannon_delay = 20; //refire timer for cannon
 alarm[0] = 60;
 </string>
           </argument>

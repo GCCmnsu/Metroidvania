@@ -25,11 +25,13 @@
     <sprite>sprites\spr_Door</sprite>
     <sprite>sprites\spr_Cannon</sprite>
     <sprite>sprites\spr_Plasma</sprite>
+    <sprite>sprites\spr_health</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\Kill_Player.gml</script>
+    <script>scripts\Damage_Player.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Player</object>
