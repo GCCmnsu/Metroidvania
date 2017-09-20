@@ -25,11 +25,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>player_speed = 3;
-player_jump_height = 0//-3.1;
-player_jump_speed = -4.2;
+            <string>global.player_speed = 5;
+
+
 global.checkpoint_x = x;
 global.checkpoint_y = y;
+
+global.player_lastx = x;
+global.player_lasty = y;
+
+// jumping related variables
+global.player_vertical_speed = 0;
+global.player_gravity = .4
+global.player_isfalling = false
+global.player_jump_height = 0;
+global.player_jump_speed = -8;
+global.player_doublejump = true // true if can doublejump
 </string>
           </argument>
         </arguments>
@@ -52,39 +63,68 @@ global.checkpoint_y = y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//centers camera on player
-view_xview[0] = x - (view_wview[0] / 2); 
-view_yview[0] = y - (view_hview[0] / 2); 
+            <string>global.player_lastx = x;
+global.player_lasty = y;
 
 //spring code
 if(collision_rectangle(x-8,y+3,x+8,y+3,Spring,true,false))
 {
-vspeed = -7.2;
-y-=6;
+global.player_vertical_speed = -12;
 }
 
-//Falling code
-if(collision_rectangle(x-8,y+3,x+8,y+3,Wall,true,false)) //check if floor underneath you
-{
-if(vspeed &gt; 0)
+//Apply gravity and movement
+if global.player_isfalling
     {
-    //stop fall if floor underneath
-    gravity = 0;
-    vspeed = 0;
-    y = (collision_rectangle(x-8,y+3,x+8,y+3,Wall,true,false)).y;
+    global.player_vertical_speed += global.player_gravity
+    y += global.player_vertical_speed
     }
-}
+
+
+// check if hitting a ceiling
+if global.player_vertical_speed &lt; 0
+    {
+    if(collision_rectangle(x-8,y-8,x+8,y-sprite_height+global.player_vertical_speed,Wall,true,false)) //check if ceiling above you
+        {
+        global.player_vertical_speed = 0
+        while (!collision_rectangle(x-8,y-8,x+8,y-sprite_height-1,Wall,true,false))
+              {
+              y -= 1
+              }
+        }
+    } 
+    
+//Checking for Fall code
+if(collision_rectangle(x-8,y-6,x+8,y+global.player_vertical_speed,Wall,true,false)) //check if floor underneath you
+    {
+    if(global.player_isfalling)
+        {
+        //stop fall if floor underneath
+        y = (collision_rectangle(x-8,y-6,x+8,y+global.player_vertical_speed,Wall,true,false)).y;
+        global.player_vertical_speed = 0;
+        global.player_doublejump = true;
+        global.player_isfalling = false;
+        }
+    }
 else
-{
-//set gravity to fall
-gravity = .15;
-}
+    {
+    //set gravity to fall
+    global.player_isfalling = true;
+    }
+    
+
+
+
 
 //conveyor belts
 if(collision_rectangle(x-8,y+1,x+8,y+1,Conveyor,true,false)) //check if conveyor underneath you
 {
 x += (collision_rectangle(x-8,y+1,x+8,y+1,Conveyor,true,false)).conveyor_rotation_speed;
 }
+
+
+//centers camera on player
+view_xview[0] = x - (view_wview[0] / 2); 
+view_yview[0] = y - (view_hview[0] / 2); 
 </string>
           </argument>
         </arguments>
@@ -131,9 +171,9 @@ global.checkpoint_y = other.y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!collision_rectangle(x+8,y-1,x+10,y-32,Wall,false,false))
+            <string>if(!collision_rectangle(x+8,y-1,x+(8+global.player_speed),y-32,Wall,false,false))
 {
-x+=2;
+x+= global.player_speed;
 }
 </string>
           </argument>
@@ -157,9 +197,9 @@ x+=2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!collision_rectangle(x-8,y-1,x-10,y-32,Wall,false,false))
+            <string>if(!collision_rectangle(x-8,y-1,x-(8+global.player_speed),y-32,Wall,false,false))
 {
-x-=2;
+x-= global.player_speed;
 }
 </string>
           </argument>
@@ -235,10 +275,22 @@ image_yscale = abs(image_yscale);
           <argument>
             <kind>1</kind>
             <string>if(collision_rectangle(x-8,y+3,x+8,y+3,Wall,true,false))
-{
-vspeed = player_jump_speed;
-y-= player_jump_height;
-}
+    {
+    global.player_vertical_speed = global.player_jump_speed;
+    global.player_isfalling = false
+    y += global.player_jump_height;
+    }
+else
+    {
+    // check if doublejump
+    if global.player_doublejump
+        {
+        global.player_isfalling = false
+        global.player_doublejump = false;
+        global.player_vertical_speed = global.player_jump_speed;
+        y += global.player_jump_height;
+        }
+    }
 </string>
           </argument>
         </arguments>
