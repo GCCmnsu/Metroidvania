@@ -10,7 +10,7 @@
   <bbox_left>0</bbox_left>
   <bbox_right>15</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>14</bbox_bottom>
+  <bbox_bottom>15</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -21,5 +21,8 @@
   <height>16</height>
   <frames>
     <frame index="0">images\spr_Spring_0.png</frame>
+    <frame index="1">images\spr_Spring_1.png</frame>
+    <frame index="2">images\spr_Spring_2.png</frame>
+    <frame index="3">images\spr_Spring_3.png</frame>
   </frames>
 </sprite>

@@ -45,6 +45,9 @@ global.player_isfalling = false
 global.player_jump_height = 0;
 global.player_jump_speed = -8;
 global.player_doublejump = true // true if can doublejump
+
+global.refire_rate = 25;
+global.refire_timer = 0;
 </string>
           </argument>
         </arguments>
@@ -72,6 +75,9 @@ global.player_lasty = y;
 
 //decrement iframes
 global.player_iframes = max(0,global.player_iframes - 1)
+
+//refire
+global.refire_timer = max(0,global.refire_timer - 1)
 
 //spring code
 if(collision_rectangle(x-8,y+3,x+8,y+3,Spring,true,false))
@@ -182,6 +188,8 @@ global.checkpoint_y = other.y;
 {
 x+= global.player_speed;
 }
+
+direction  = 0
 </string>
           </argument>
         </arguments>
@@ -208,6 +216,8 @@ x+= global.player_speed;
 {
 x-= global.player_speed;
 }
+
+direction = 180
 </string>
           </argument>
         </arguments>
@@ -235,7 +245,7 @@ draw_set_alpha(1)
 
 //show player as transparent+red if invulnerable, else draw normal
 if(global.player_iframes &gt; 0)                                              
-    draw_sprite_ext(spr_Player,0,x,y,1,1,0,c_red,.7)
+    draw_sprite_ext(spr_Player,1,x,y,1,1,0,c_white,1)
 else
     draw_sprite_ext(spr_Player,0,x,y,1,1,0,c_white,1)
 
@@ -257,7 +267,7 @@ draw_text(view_xview[0],view_yview[0],"FPS: " + string(fps));
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="68">
+    <event eventtype="9" enumb="112">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -279,6 +289,33 @@ draw_text(view_xview[0],view_yview[0],"FPS: " + string(fps));
 image_xscale = abs(image_xscale);
 image_yscale = abs(image_yscale);
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="67">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if global.refire_timer == 0
+    {
+    (instance_create(x,y-16,Player_Shot)).direction = direction
+    global.refire_timer = global.refire_rate
+    }
 </string>
           </argument>
         </arguments>

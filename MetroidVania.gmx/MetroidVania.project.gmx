@@ -27,8 +27,12 @@
     <sprite>sprites\spr_Plasma</sprite>
     <sprite>sprites\spr_health</sprite>
     <sprite>sprites\spr_Lava</sprite>
+    <sprite>sprites\spr_Player_Shot</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\Kill_Player.gml</script>
@@ -53,6 +57,7 @@
     <object>objects\Plasma</object>
     <object>objects\Tracking_Cannon</object>
     <object>objects\Lava</object>
+    <object>objects\Player_Shot</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
