@@ -123,6 +123,11 @@
     <instance objName="Wall" x="96" y="592" name="inst_9CD1D17B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="352" y="432" name="inst_5CCC4B9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="1792" y="296" name="inst_CBB6908D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="8" y="920" name="inst_8C545010" locked="0" code="" scaleX="30" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="616" y="912" name="inst_4EB198B9" locked="0" code="" scaleX="7.5" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy_Chaser" x="136" y="824" name="inst_2D36AEAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy_Chaser" x="256" y="824" name="inst_120DCD72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spring" x="488" y="920" name="inst_7A543196" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="208" y="672" w="16" h="16" xo="0" yo="0" id="10000079" name="inst_C6F54C6F" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

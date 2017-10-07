@@ -58,6 +58,7 @@
     <object>objects\Tracking_Cannon</object>
     <object>objects\Lava</object>
     <object>objects\Player_Shot</object>
+    <object>objects\Enemy_Chaser</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
