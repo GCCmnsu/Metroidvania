@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>Wall</parentName>
+  <parentName>self</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -58,20 +58,9 @@ else
     {
     if(direction==0) //if going right
         {
-        if(collision_rectangle(x+8,y-1,x+8+spike_speed,y-32,Player,true,true))
+        if(collision_rectangle(x,y,x+spike_speed,y,Patrol_Path,true,false))
             {
-            with(Player) //kill player
-                {
-                Kill_Player();
-                }
-            }
-    
-        if((!collision_rectangle(x+8,y-1,x+8+spike_speed,y-32,Wall,true,true))) //no wall in way
-            {
-            if(collision_rectangle(x,y+3,x+spike_speed,y+3,Patrol_Path,true,false))
-                {
-                x+=spike_speed;
-                }
+            x+=spike_speed;
             }
         else
             {
@@ -83,23 +72,42 @@ else
     
     if(direction==180) //if going left
         {
-        if(collision_rectangle(x-8,y-1,x-8-spike_speed,y-32,Player,true,true))
+        if(collision_rectangle(x,y,x-spike_speed,y,Patrol_Path,true,false))
             {
-            with(Player) //kill player
-                {
-                Kill_Player();
-                }
+            x-=spike_speed;
             }
-            if(collision_rectangle(x,y+3,x-spike_speed,y+3,Patrol_Path,true,false))
-                {
-                x-=spike_speed;
-                }
         else
             {
             direction = 0;
             spike_delay = 60;
             }
         }
+    }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="Player">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>with(Player) //kill player
+    {
+    Kill_Player();
     }
 </string>
           </argument>
