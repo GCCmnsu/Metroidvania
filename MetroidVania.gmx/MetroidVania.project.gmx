@@ -64,10 +64,12 @@
     <room>rooms\room0</room>
     <room>rooms\TEST</room>
     <room>rooms\Long_Hall_template</room>
-    <room>rooms\Tall_Hall_template</room>
+    <room>rooms\Long_Climb_template</room>
     <room>rooms\Secret_Room_template</room>
     <room>rooms\Main_Boss1_Arena</room>
     <room>rooms\Mini_Boss1_Arena</room>
+    <room>rooms\Short_Hall_template</room>
+    <room>rooms\Short_Climb_template</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
