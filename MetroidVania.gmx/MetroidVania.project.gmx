@@ -61,15 +61,51 @@
     <object>objects\Enemy_Chaser</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Save_Room</room>
     <room>rooms\room0</room>
     <room>rooms\TEST</room>
     <room>rooms\Long_Hall_template</room>
     <room>rooms\Long_Climb_template</room>
     <room>rooms\Secret_Room_template</room>
-    <room>rooms\Main_Boss1_Arena</room>
-    <room>rooms\Mini_Boss1_Arena</room>
     <room>rooms\Short_Hall_template</room>
     <room>rooms\Short_Climb_template</room>
+    <rooms name="Level1">
+      <rooms name="Pre_mini">
+        <room>rooms\Room_1_1</room>
+        <room>rooms\Room_1_2</room>
+        <room>rooms\Room_1_3</room>
+        <room>rooms\Room_1_4</room>
+        <room>rooms\Room_1_5</room>
+        <room>rooms\Room_1_6</room>
+        <room>rooms\Room_1_7</room>
+        <room>rooms\Save_Room_1_1</room>
+      </rooms>
+      <rooms name="Post_mini">
+        <room>rooms\Room__1_8</room>
+        <room>rooms\Room_1_9</room>
+        <room>rooms\Room_1_10</room>
+        <room>rooms\Room_1_11</room>
+        <room>rooms\Room_1_12</room>
+        <room>rooms\Room_1_13</room>
+        <room>rooms\Room_1_14</room>
+        <room>rooms\Room_1_15</room>
+        <room>rooms\Room_1_16</room>
+        <room>rooms\Room_1_17</room>
+        <room>rooms\Save_Room_1_2</room>
+      </rooms>
+      <rooms name="Post_boss">
+        <room>rooms\Room_1_18</room>
+        <room>rooms\Room_1_19</room>
+        <room>rooms\Room_1_20</room>
+        <room>rooms\Room_1_21</room>
+        <room>rooms\Room_1_22</room>
+        <room>rooms\Room_1_23</room>
+        <room>rooms\Room_1_24</room>
+      </rooms>
+      <room>rooms\Main_Boss1_Arena</room>
+      <room>rooms\Mini_Boss1_Arena</room>
+      <room>rooms\Start_Room</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
