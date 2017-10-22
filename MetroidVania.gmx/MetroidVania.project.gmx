@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\sound0</sound>
+    <sound>sound\sound1</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
@@ -59,8 +60,11 @@
     <object>objects\Lava</object>
     <object>objects\Player_Shot</object>
     <object>objects\Enemy_Chaser</object>
+    <object>objects\Exit_Room</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Room_1_4</room>
+    <room>rooms\Start_Room</room>
     <room>rooms\Save_Room</room>
     <room>rooms\room0</room>
     <room>rooms\TEST</room>
@@ -74,7 +78,6 @@
         <room>rooms\Room_1_1</room>
         <room>rooms\Room_1_2</room>
         <room>rooms\Room_1_3</room>
-        <room>rooms\Room_1_4</room>
         <room>rooms\Room_1_5</room>
         <room>rooms\Room_1_6</room>
         <room>rooms\Room_1_7</room>
@@ -104,7 +107,6 @@
       </rooms>
       <room>rooms\Main_Boss1_Arena</room>
       <room>rooms\Mini_Boss1_Arena</room>
-      <room>rooms\Start_Room</room>
     </rooms>
   </rooms>
   <help>

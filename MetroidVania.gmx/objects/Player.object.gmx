@@ -3,56 +3,11 @@
   <spriteName>spr_Player</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-5</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.player_speed = 5;
-
-
-global.checkpoint_x = x;
-global.checkpoint_y = y;
-
-global.player_lastx = x;
-global.player_lasty = y;
-
-global.player_health = 3
-global.player_health_max = 3
-global.player_iframes = 0  //number of invulnerability frames. 
-
-// jumping related variables
-global.player_vertical_speed = 0;
-global.player_gravity = .4
-global.player_isfalling = false
-global.player_jump_height = 0;
-global.player_jump_speed = -8;
-global.player_doublejump = true // true if can doublejump
-
-global.refire_rate = 25;
-global.refire_timer = 0;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -162,6 +117,7 @@ view_yview[0] = y - (view_hview[0] / 2);
             <kind>1</kind>
             <string>global.checkpoint_x = other.x;
 global.checkpoint_y = other.y;
+global.checkpoint_room = room
 </string>
           </argument>
         </arguments>
@@ -223,6 +179,78 @@ direction = 180
         </arguments>
       </action>
     </event>
+    <event eventtype="7" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>x = global.player_roomstartx
+y = global.player_roomstarty
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.player_speed = 5;
+
+global.checkpoint_room = Start_Room
+global.checkpoint_x = 400;
+global.checkpoint_y = 352;
+
+global.player_lastx = x;
+global.player_lasty = y;
+
+global.player_roomstartx = x;
+global.player_roomstarty = y;
+
+global.player_health = 3
+global.player_health_max = 3
+global.player_iframes = 0  //number of invulnerability frames. 
+
+// jumping related variables
+global.player_vertical_speed = 0;
+global.player_gravity = .45
+global.player_isfalling = false
+global.player_jump_height = 0;
+global.player_jump_speed = -10.5;
+global.player_doublejump = true // true if can doublejump
+
+global.refire_rate = 25;
+global.refire_timer = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
@@ -252,16 +280,17 @@ else
 
 
 //draw health
-var dx = 0;
+var dx = 30;
 repeat(global.player_health)
 {
-draw_sprite(spr_health,0,view_xview[0]+33+dx,view_yview[0]+10);
+draw_sprite(spr_health,0,view_xview[0]+33+dx,view_yview[0]+40);
 dx += 40
 }
 
 
 //draw fps
-draw_text(view_xview[0],view_yview[0],"FPS: " + string(fps));
+if debug_mode
+    draw_text(view_xview[0],view_yview[0],"FPS: " + string(fps));
 </string>
           </argument>
         </arguments>
