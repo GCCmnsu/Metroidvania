@@ -25,9 +25,109 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>direction = 0;
-spike_speed = 4;
-spike_delay = 60;
+            <string>spike_direction = 0; //direction the spike moves in
+
+spike_speed = 4; //how fast the spike moves
+
+spike_move_time = 10; //how long the spike can move before reversing
+spike_delay = 60; //delay when spike reaches endpoint
+
+spike_can_move = false //if the spike has moving enabled
+spike_is_moving = false //if the spike is currently moving
+
+alarm[0] = 1
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>reverses spike and stops if given enough time</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>spike_direction = spike_direction - 180
+spike_is_moving = false
+alarm[0] = spike_delay
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>starts moving the spike</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if spike_can_move
+{
+spike_is_moving = true
+alarm[1] = spike_move_time
+}
 </string>
           </argument>
         </arguments>
@@ -50,38 +150,26 @@ spike_delay = 60;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(spike_delay &gt; 0)
+            <string>if spike_can_move and spike_is_moving
     {
-    spike_delay -= 1;
-    }
-else
-    {
-    if(direction==0) //if going right
-        {
-        if(collision_rectangle(x,y,x+spike_speed,y,Patrol_Path,true,false))
+    //check if something in the way of movement
+    var wall_there, spikes_there;
+    wall_there = place_meeting(x+lengthdir_x(spike_speed,spike_direction), y+lengthdir_y(spike_speed,spike_direction),Wall)
+    spikes_there = place_meeting(x+lengthdir_x(spike_speed,spike_direction), y+lengthdir_y(spike_speed,spike_direction),Spikes)
+    if spikes_there or wall_there
             {
-            x+=spike_speed;
+            //Wall in the way, reverse direction and add delay
+            //reverse direction and add delay
+            spike_direction -= 180;
+            spike_is_moving = false
+            alarm[0] = spike_delay
+            alarm[1] = -1
             }
-        else
+    else
             {
-            direction = 180;
-            spike_delay = 60;
+            x += lengthdir_x(spike_speed,spike_direction)
+            y += lengthdir_y(spike_speed,spike_direction)
             }
-        }
-
-    
-    if(direction==180) //if going left
-        {
-        if(collision_rectangle(x,y,x-spike_speed,y,Patrol_Path,true,false))
-            {
-            x-=spike_speed;
-            }
-        else
-            {
-            direction = 0;
-            spike_delay = 60;
-            }
-        }
     }
 </string>
           </argument>
@@ -109,6 +197,36 @@ else
     {
     Kill_Player();
     }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self()
+
+if debug_mode
+{
+draw_set_color(c_yellow)
+draw_text(x,y-8,string(alarm[0]))
+draw_text(x,y+8,string(alarm[1]))
+}
 </string>
           </argument>
         </arguments>

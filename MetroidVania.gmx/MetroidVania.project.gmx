@@ -63,7 +63,7 @@
     <object>objects\Exit_Room</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Room_1_4</room>
+    <room>rooms\Room_1_6</room>
     <room>rooms\Start_Room</room>
     <room>rooms\Save_Room</room>
     <room>rooms\room0</room>
@@ -78,10 +78,10 @@
         <room>rooms\Room_1_1</room>
         <room>rooms\Room_1_2</room>
         <room>rooms\Room_1_3</room>
+        <room>rooms\Room_1_4</room>
         <room>rooms\Room_1_5</room>
-        <room>rooms\Room_1_6</room>
         <room>rooms\Room_1_7</room>
-        <room>rooms\Save_Room_1_1</room>
+        <room>rooms\Room_1_S1</room>
       </rooms>
       <rooms name="Post_mini">
         <room>rooms\Room__1_8</room>
@@ -94,7 +94,7 @@
         <room>rooms\Room_1_15</room>
         <room>rooms\Room_1_16</room>
         <room>rooms\Room_1_17</room>
-        <room>rooms\Save_Room_1_2</room>
+        <room>rooms\Room_1_S2</room>
       </rooms>
       <rooms name="Post_boss">
         <room>rooms\Room_1_18</room>

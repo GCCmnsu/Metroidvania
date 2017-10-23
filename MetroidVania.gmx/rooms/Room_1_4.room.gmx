@@ -57,7 +57,7 @@
     <instance objName="Wall" x="0" y="608" name="inst_F7F73C17" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="480" y="160" name="inst_176D5C26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="480" y="416" name="inst_01C03012" locked="0" code="" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="512" y="128" name="inst_1C61B43B" locked="0" code="destination_room = Room_1_3&#xA;destination_x = 16&#xA;destination_y = 96&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="512" y="128" name="inst_1C61B43B" locked="0" code="destination_room = Room_1_3&#xA;destination_x = 16&#xA;destination_y = 96" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="320" y="192" name="inst_0B6D86B0" locked="0" code="" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="256" y="416" name="inst_F37B2503" locked="0" code="" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="32" y="528" name="inst_7279F683" locked="0" code="spring_jump_speed = -13&#xA;" scaleX="10" scaleY="5" colour="4294967295" rotation="0"/>
@@ -65,8 +65,8 @@
     <instance objName="Spring" x="208" y="608" name="inst_4FA2E95D" locked="0" code="spring_jump_speed = -10&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="144" y="528" name="inst_AECFEC2A" locked="0" code="spring_jump_speed = -13&#xA;" scaleX="-2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Enemy" x="304" y="608" name="inst_77B76549" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="512" y="352" name="inst_EC909C26" locked="0" code="" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="512" y="544" name="inst_8CEB3A92" locked="0" code="" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="512" y="352" name="inst_EC909C26" locked="0" code="destination_room = Room_1_S1&#xA;destination_x = 16&#xA;destination_y = 272&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="512" y="544" name="inst_8CEB3A92" locked="0" code="destination_room = Room_1_5&#xA;destination_x = 16&#xA;destination_y = 96&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="192" y="192" name="inst_0CC25B81" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="112" y="304" name="inst_542EE7FD" locked="0" code="spring_jump_speed = -11&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="480" y="32" name="inst_4CA9DFAE" locked="0" code="" scaleX="2" scaleY="6" colour="4294967295" rotation="0"/>
