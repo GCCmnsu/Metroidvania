@@ -57,10 +57,6 @@
     <instance objName="Wall" x="0" y="352" name="inst_F083A609" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="512" y="288" name="inst_42CC4FE8" locked="0" code="destination_room = Room_1_1&#xA;destination_x = 32&#xA;destination_y = 352&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="64" y="352" name="inst_262620E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="176" y="304" name="inst_21AAFF69" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="224" y="288" name="inst_F6EED335" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="272" y="272" name="inst_A8BB0EE0" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="320" y="256" name="inst_13FB85E6" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

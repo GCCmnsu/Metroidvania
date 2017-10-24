@@ -29,6 +29,7 @@
     <sprite>sprites\spr_health</sprite>
     <sprite>sprites\spr_Lava</sprite>
     <sprite>sprites\spr_Player_Shot</sprite>
+    <sprite>sprites\spr_MiniBoss1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -63,7 +64,7 @@
     <object>objects\Exit_Room</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Room_1_6</room>
+    <room>rooms\Mini_Boss1_Arena</room>
     <room>rooms\Start_Room</room>
     <room>rooms\Save_Room</room>
     <room>rooms\room0</room>
@@ -80,6 +81,7 @@
         <room>rooms\Room_1_3</room>
         <room>rooms\Room_1_4</room>
         <room>rooms\Room_1_5</room>
+        <room>rooms\Room_1_6</room>
         <room>rooms\Room_1_7</room>
         <room>rooms\Room_1_S1</room>
       </rooms>
@@ -106,7 +108,6 @@
         <room>rooms\Room_1_24</room>
       </rooms>
       <room>rooms\Main_Boss1_Arena</room>
-      <room>rooms\Mini_Boss1_Arena</room>
     </rooms>
   </rooms>
   <help>
