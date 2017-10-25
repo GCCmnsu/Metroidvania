@@ -64,7 +64,6 @@
     <object>objects\Exit_Room</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Mini_Boss1_Arena</room>
     <room>rooms\Start_Room</room>
     <room>rooms\Save_Room</room>
     <room>rooms\room0</room>
@@ -108,6 +107,7 @@
         <room>rooms\Room_1_24</room>
       </rooms>
       <room>rooms\Main_Boss1_Arena</room>
+      <room>rooms\Mini_Boss1_Arena</room>
     </rooms>
   </rooms>
   <help>
