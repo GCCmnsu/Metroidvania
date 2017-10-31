@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1024</width>
   <height>384</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -51,9 +51,9 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Wall" x="0" y="0" name="inst_7BC33CE8" locked="0" code="" scaleX="2" scaleY="24" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="0" y="0" name="inst_7BC33CE8" locked="0" code="" scaleX="2" scaleY="18" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="0" name="inst_3005A52A" locked="0" code="" scaleX="64" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="992" y="0" name="inst_D47A51A7" locked="0" code="" scaleX="2" scaleY="24" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="992" y="0" name="inst_D47A51A7" locked="0" code="" scaleX="2" scaleY="18" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="352" name="inst_FBFE6F25" locked="0" code="" scaleX="64" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
