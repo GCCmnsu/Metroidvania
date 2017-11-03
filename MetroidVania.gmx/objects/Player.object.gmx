@@ -242,7 +242,7 @@ global.player_gravity = .45
 global.player_isfalling = false
 global.player_jump_height = 0;
 global.player_jump_speed = -10.5;
-global.player_doublejump = true // true if can doublejump
+global.player_doublejump = false // true if can doublejump
 
 global.refire_rate = 25;
 global.refire_timer = 0;
