@@ -26,11 +26,14 @@
     <sprite>sprites\spr_Button</sprite>
     <sprite>sprites\spr_Door</sprite>
     <sprite>sprites\spr_Cannon</sprite>
+    <sprite>sprites\spr_Cannon_Tracking</sprite>
     <sprite>sprites\spr_Plasma</sprite>
     <sprite>sprites\spr_health</sprite>
     <sprite>sprites\spr_Lava</sprite>
     <sprite>sprites\spr_Player_Shot</sprite>
     <sprite>sprites\spr_MiniBoss1</sprite>
+    <sprite>sprites\spr_jump_upgrade</sprite>
+    <sprite>sprites\spr_Sign</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -63,12 +66,14 @@
     <object>objects\Player_Shot</object>
     <object>objects\Enemy_Chaser</object>
     <object>objects\Exit_Room</object>
+    <object>objects\Jump_Upgrade</object>
+    <object>objects\Display_Sign</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Room</room>
     <room>rooms\Save_Room</room>
-    <room>rooms\room0</room>
     <room>rooms\TEST</room>
+    <room>rooms\room0</room>
     <room>rooms\Long_Hall_template</room>
     <room>rooms\Long_Climb_template</room>
     <room>rooms\Secret_Room_template</room>
@@ -86,7 +91,7 @@
         <room>rooms\Room_1_S1</room>
       </rooms>
       <rooms name="Post_mini">
-        <room>rooms\Room__1_8</room>
+        <room>rooms\Room_1_8</room>
         <room>rooms\Room_1_9</room>
         <room>rooms\Room_1_10</room>
         <room>rooms\Room_1_11</room>

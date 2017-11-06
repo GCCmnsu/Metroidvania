@@ -35,7 +35,7 @@ enemy_jump_speed = -8;
 
 
 //how fast the enemy moves side to side
-enemy_hspeed = 4
+enemy_hspeed = 3
 enemy_jump_chance = .01 //chance of enemy jump each frame when on the ground
 
 //ai sight params

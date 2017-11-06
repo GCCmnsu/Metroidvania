@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1200</width>
   <height>384</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -68,6 +68,7 @@
     <instance objName="Spring" x="576" y="352" name="inst_F55478CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="960" y="352" name="inst_DA4838B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-16" y="288" name="inst_094D67FF" locked="0" code="destination_room = Start_Room&#xA;destination_x = 464&#xA;destination_y = 352&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Display_Sign" x="248" y="304" name="inst_C24B5203" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

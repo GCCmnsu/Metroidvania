@@ -242,10 +242,15 @@ global.player_gravity = .45
 global.player_isfalling = false
 global.player_jump_height = 0;
 global.player_jump_speed = -10.5;
+
 global.player_doublejump = false // true if can doublejump
 
 global.refire_rate = 25;
 global.refire_timer = 0;
+
+//upgrade flags
+global.player_upgrade_jump = false // true if can jump
+global.player_upgrade_doublejump = false // true if can jump
 </string>
           </argument>
         </arguments>
@@ -367,21 +372,24 @@ image_yscale = abs(image_yscale);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(collision_rectangle(x-8,y+3,x+8,y+3,Wall,true,false))
+            <string>if global.player_upgrade_jump
     {
-    global.player_vertical_speed = global.player_jump_speed;
-    global.player_isfalling = false
-    y += global.player_jump_height;
-    }
-else
-    {
-    // check if doublejump
-    if global.player_doublejump
+    if(collision_rectangle(x-8,y+3,x+8,y+3,Wall,true,false))
         {
-        global.player_isfalling = false
-        global.player_doublejump = false;
         global.player_vertical_speed = global.player_jump_speed;
+        global.player_isfalling = false
         y += global.player_jump_height;
+        }
+    else
+        {
+        // check if doublejump
+        if global.player_doublejump and global.player_upgrade_doublejump
+            {
+            global.player_isfalling = false
+            global.player_doublejump = false;
+            global.player_vertical_speed = global.player_jump_speed;
+            y += global.player_jump_height;
+            }
         }
     }
 </string>
