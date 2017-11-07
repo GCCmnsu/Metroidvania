@@ -3,8 +3,8 @@
   <caption></caption>
   <width>512</width>
   <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -51,10 +51,22 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Wall" x="0" y="0" name="inst_C7CFC3A6" locked="0" code="" scaleX="2" scaleY="48" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="0" y="0" name="inst_C7CFC3A6" locked="0" code="" scaleX="2" scaleY="34" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="0" name="inst_6223C738" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="480" y="0" name="inst_81E5A970" locked="0" code="" scaleX="2" scaleY="48" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="480" y="96" name="inst_81E5A970" locked="0" code="" scaleX="2" scaleY="40" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="736" name="inst_F7F73C17" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="0" y="608" name="inst_D78CED99" locked="0" code="" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="32" y="608" name="inst_646EE37B" locked="0" code="" scaleX="4" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="32" y="672" name="inst_1DC2A2F6" locked="0" code="" scaleX="28" scaleY="4.26666688919067" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="416" y="96" name="inst_905B92CE" locked="0" code="" scaleX="4" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Player" x="448" y="80" name="inst_74D1D47E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Platform" x="160" y="176" name="inst_EB6560EA" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Platform" x="352" y="336" name="inst_359033D3" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Platform" x="160" y="528" name="inst_248BC3E5" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Cannon" x="464" y="224" name="inst_1D12E94A" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="Cannon" x="48" y="288" name="inst_5CE3F26B" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="Cannon" x="464" y="400" name="inst_42D42867" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="Cannon" x="48" y="464" name="inst_97377477" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
