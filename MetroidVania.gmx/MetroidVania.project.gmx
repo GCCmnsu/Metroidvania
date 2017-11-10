@@ -79,7 +79,7 @@
     <room>rooms\Secret_Room_template</room>
     <room>rooms\Short_Hall_template</room>
     <room>rooms\Short_Climb_template</room>
-    <rooms name="Level1">
+    <rooms name="Level1 (Disposal)">
       <rooms name="Pre_mini">
         <room>rooms\Room_1_1</room>
         <room>rooms\Room_1_2</room>
