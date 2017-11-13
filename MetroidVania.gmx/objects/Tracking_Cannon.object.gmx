@@ -88,9 +88,9 @@ alarm[0] = 60;
     if tempid
         {
         //draw sight line to it
-        direction = point_direction(x,y,(tempid).x,(tempid).y)
+        direction = point_direction(x,y,(tempid).x,(tempid).y-16)
         xx = x + lengthdir_x(9,direction)
-        yy = y + lengthdir_x(9,direction)
+        yy = y + lengthdir_y(9,direction)
         if !collision_line((tempid).x,(tempid).y - 16,xx,yy,Wall,true,true)
             {
             //fire cannon

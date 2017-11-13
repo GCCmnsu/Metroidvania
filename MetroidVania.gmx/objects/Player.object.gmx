@@ -251,6 +251,7 @@ global.refire_timer = 0;
 //upgrade flags
 global.player_upgrade_jump = false // true if can jump
 global.player_upgrade_doublejump = false // true if can jump
+global.player_upgrade_cannon = false //if the player has the ability to shoot
 </string>
           </argument>
         </arguments>
@@ -345,7 +346,9 @@ image_yscale = abs(image_yscale);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.refire_timer == 0
+            <string>///Player shooting logic
+
+if global.refire_timer &lt;= 0 and global.player_upgrade_cannon
     {
     (instance_create(x,y-16,Player_Shot)).direction = direction
     global.refire_timer = global.refire_rate
