@@ -11,7 +11,7 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code></code>
-  <enableViews>0</enableViews>
+  <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
@@ -72,6 +72,8 @@
     <instance objName="Spring" x="144" y="736" name="inst_4A8C7D55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="384" y="880" name="inst_7F9B1C8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="336" y="992" name="inst_9049EAC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="384" y="-1360" name="inst_521C29CC" locked="0" code="destination_room = Room_1_18&#xA;destination_x = 1296&#xA;destination_y = 80" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-16" y="928" name="inst_0F725D05" locked="0" code="destination_room = Room_1_20&#xA;destination_x = 976&#xA;destination_y = 336&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

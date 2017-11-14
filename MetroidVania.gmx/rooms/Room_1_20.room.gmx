@@ -67,6 +67,8 @@
     <instance objName="Lava" x="640" y="256" name="inst_78B17F5E" locked="0" code="" scaleX="9" scaleY="6.40000009536743" colour="4294967295" rotation="0"/>
     <instance objName="Lava" x="304" y="256" name="inst_406D3B2A" locked="0" code="" scaleX="12" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="160" y="144" name="inst_59FD28DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="1024" y="288" name="inst_B3F25DE0" locked="0" code="destination_room = Room_1_2&#xA;destination_x = 32&#xA;destination_y = 976&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-16" y="288" name="inst_2A174DB9" locked="0" code="destination_room = Room_1_20&#xA;destination_x = 464&#xA;destination_y = 80" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

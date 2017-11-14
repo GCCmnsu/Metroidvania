@@ -11,7 +11,7 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code></code>
-  <enableViews>0</enableViews>
+  <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
@@ -51,10 +51,12 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Wall" x="0" y="0" name="inst_72BD8C79" locked="0" code="" scaleX="2" scaleY="72" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="0" y="0" name="inst_72BD8C79" locked="0" code="" scaleX="2" scaleY="66" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="0" name="inst_FAB84E1A" locked="0" code="" scaleX="64" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="992" y="0" name="inst_18F74B82" locked="0" code="" scaleX="2" scaleY="72" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="992" y="0" name="inst_18F74B82" locked="0" code="" scaleX="2" scaleY="66" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="1120" name="inst_CA72F21B" locked="0" code="" scaleX="64" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-32" y="1056" name="inst_E7E67BEA" locked="0" code="destination_room = Room_1_17&#xA;destination_x = 976&#xA;destination_y = 336&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="1024" y="1056" name="inst_FCACA0A2" locked="0" code="destination_room = Room_1_18&#xA;destination_x = 16&#xA;destination_y = 336&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
