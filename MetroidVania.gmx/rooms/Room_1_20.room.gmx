@@ -62,8 +62,8 @@
     <instance objName="Wall" x="576" y="224" name="inst_DE75776E" locked="0" code="" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="784" y="224" name="inst_C57F8651" locked="0" code="" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="848" y="288" name="inst_E3AB96B9" locked="0" code="" scaleX="4.26666688919067" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy" x="272" y="160" name="inst_A0AD0E4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy" x="608" y="224" name="inst_C34944DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy_Patrol" x="272" y="160" name="inst_A0AD0E4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy_Patrol" x="608" y="224" name="inst_C34944DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Lava" x="640" y="256" name="inst_78B17F5E" locked="0" code="" scaleX="9" scaleY="6.40000009536743" colour="4294967295" rotation="0"/>
     <instance objName="Lava" x="304" y="256" name="inst_406D3B2A" locked="0" code="" scaleX="12" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="160" y="144" name="inst_59FD28DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

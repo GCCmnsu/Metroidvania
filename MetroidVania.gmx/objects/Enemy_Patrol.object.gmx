@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>self</parentName>
+  <parentName>Enemy</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -26,7 +26,68 @@
           <argument>
             <kind>1</kind>
             <string>direction = 0;
-enemy_health = 10;
+enemy_hspeed = 3
+enemy_health = 20;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(direction==0) //if going right
+    {
+    if(!place_meeting(x + enemy_hspeed,y,Wall)) //no wall in way
+        {
+        if(collision_rectangle(x,y+3,x+2,y+3,Patrol_Path,true,false))
+        {
+        x += enemy_hspeed;
+        }
+    else
+        {
+        direction = 180; //reverse direction
+        }
+    }
+else
+    {
+    direction = 180; //reverse direction
+    }
+}
+
+
+if(direction==180) //if going left
+    {
+    if(!place_meeting(x - enemy_hspeed,y,Wall)) //no wall in way
+        {
+        if(collision_rectangle(x,y+3,x-2,y+3,Patrol_Path,true,false))
+        {
+        x -= enemy_hspeed;
+        }
+    else
+        {
+        direction = 0; //reverse direction
+        }
+    }
+else
+    {
+    direction = 0; //reverse direction
+    }
+}
 </string>
           </argument>
         </arguments>

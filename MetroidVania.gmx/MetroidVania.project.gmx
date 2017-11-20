@@ -34,6 +34,7 @@
     <sprite>sprites\spr_MiniBoss1</sprite>
     <sprite>sprites\spr_jump_upgrade</sprite>
     <sprite>sprites\spr_Sign</sprite>
+    <sprite>sprites\spr_Charger</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -46,10 +47,15 @@
   </scripts>
   <objects name="objects">
     <object>objects\Player</object>
+    <objects name="Enemies">
+      <object>objects\Enemy</object>
+      <object>objects\Enemy_Patrol</object>
+      <object>objects\Patrol_Path</object>
+      <object>objects\Enemy_Chaser</object>
+      <object>objects\Enemy_Charger</object>
+    </objects>
     <object>objects\Wall</object>
     <object>objects\Spring</object>
-    <object>objects\Enemy</object>
-    <object>objects\Patrol_Path</object>
     <object>objects\CheckPoint</object>
     <object>objects\Spikes</object>
     <object>objects\Conveyor_Edge</object>
@@ -64,7 +70,6 @@
     <object>objects\Tracking_Cannon</object>
     <object>objects\Lava</object>
     <object>objects\Player_Shot</object>
-    <object>objects\Enemy_Chaser</object>
     <object>objects\Exit_Room</object>
     <object>objects\Jump_Upgrade</object>
     <object>objects\Display_Sign</object>

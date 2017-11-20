@@ -65,7 +65,7 @@
     <instance objName="Platform" x="352" y="272" name="inst_C204C87B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Platform" x="576" y="224" name="inst_35784AA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Platform" x="768" y="272" name="inst_0C78AFDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy" x="480" y="256" name="inst_E7EEADD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy_Patrol" x="480" y="256" name="inst_E7EEADD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="1024" y="288" name="inst_EE19CB55" locked="0" code="destination_room = Room_1_15&#xA;destination_x = 32&#xA;destination_y = 400&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-16" y="288" name="inst_EC852173" locked="0" code="destination_room = Room_1_12&#xA;destination_x = 464&#xA;destination_y = 720&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>

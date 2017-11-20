@@ -59,7 +59,7 @@
     <instance objName="Spring" x="240" y="352" name="inst_8526D998" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="352" y="352" name="inst_3EB011A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="288" y="288" name="inst_88EC5C36" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy" x="800" y="352" name="inst_CD5F8A94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy_Patrol" x="800" y="352" name="inst_CD5F8A94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Patrol_Path" x="784" y="368" name="inst_71FAA6C6" locked="0" code="" scaleX="18" scaleY="-2" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="736" y="352" name="inst_226851BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="1184" y="288" name="inst_68C8E405" locked="0" code="destination_room = Room_1_2&#xA;destination_x = 16&#xA;destination_y = 96" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>

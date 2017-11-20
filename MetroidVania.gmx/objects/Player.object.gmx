@@ -220,7 +220,8 @@ y = global.player_roomstarty
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.player_speed = 5;
+            <string>///initialize global vars
+global.player_speed = 5;
 
 global.checkpoint_room = Start_Room
 global.checkpoint_x = 400;
@@ -296,7 +297,11 @@ dx += 40
 
 //draw fps
 if debug_mode
+    {
+    draw_set_alpha(1)
+    draw_set_color(c_red)
     draw_text(view_xview[0],view_yview[0],"FPS: " + string(fps));
+    }
 </string>
           </argument>
         </arguments>

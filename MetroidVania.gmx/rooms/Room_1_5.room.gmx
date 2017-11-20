@@ -70,7 +70,7 @@
     <instance objName="Wall" x="992" y="240" name="inst_DAAF29FA" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="1040" y="240" name="inst_D7186238" locked="0" code="" scaleX="10" scaleY="7.46666669845581" colour="4294967295" rotation="0"/>
     <instance objName="Spikes" x="544" y="64" name="inst_4F2290B1" locked="0" code="spike_direction = 270&#xA;spike_speed = 4&#xA;spike_delay = 20&#xA;spike_move_time = 120&#xA;spike_can_move = true&#xA;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy" x="208" y="352" name="inst_E7DA8DD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy_Patrol" x="208" y="352" name="inst_E7DA8DD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Patrol_Path" x="192" y="352" name="inst_124CB9FB" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spikes" x="1232" y="64" name="inst_98169483" locked="0" code="spike_direction = 270&#xA;spike_speed = 4&#xA;spike_delay = 45&#xA;spike_move_time = 120&#xA;spike_can_move = true&#xA;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Spikes" x="1232" y="320" name="inst_584D11EE" locked="0" code="spike_direction = 90&#xA;spike_speed = 4&#xA;spike_delay = 45&#xA;spike_move_time = 120&#xA;spike_can_move = true&#xA;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
