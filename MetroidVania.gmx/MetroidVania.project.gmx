@@ -35,6 +35,7 @@
     <sprite>sprites\spr_jump_upgrade</sprite>
     <sprite>sprites\spr_Sign</sprite>
     <sprite>sprites\spr_Charger</sprite>
+    <sprite>sprites\spr_Stat_Spike</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -73,6 +74,7 @@
     <object>objects\Exit_Room</object>
     <object>objects\Jump_Upgrade</object>
     <object>objects\Display_Sign</object>
+    <object>objects\Stat_Spike</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Room</room>
