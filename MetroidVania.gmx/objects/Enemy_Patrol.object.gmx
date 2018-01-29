@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>direction = 0;
-enemy_hspeed = 3
+enemy_hspeed = 2.5
 enemy_health = 20;
 </string>
           </argument>
@@ -54,7 +54,7 @@ enemy_health = 20;
     {
     if(!place_meeting(x + enemy_hspeed,y,Wall)) //no wall in way
         {
-        if(collision_rectangle(x,y+3,x+2,y+3,Patrol_Path,true,false))
+        if(collision_rectangle(x,y+3,x+enemy_hspeed,y+3,Patrol_Path,true,false))
         {
         x += enemy_hspeed;
         }
@@ -74,7 +74,7 @@ if(direction==180) //if going left
     {
     if(!place_meeting(x - enemy_hspeed,y,Wall)) //no wall in way
         {
-        if(collision_rectangle(x,y+3,x-2,y+3,Patrol_Path,true,false))
+        if(collision_rectangle(x,y+3,x-enemy_hspeed,y+3,Patrol_Path,true,false))
         {
         x -= enemy_hspeed;
         }
