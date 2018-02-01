@@ -59,7 +59,7 @@
     <instance objName="Wall" x="32" y="1312" name="inst_1E43F999" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="176" y="1200" name="inst_E7F93DC1" locked="0" code="" scaleX="11" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="368" y="1104" name="inst_7183A990" locked="0" code="" scaleX="7" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Cannon" x="480" y="1168" name="inst_51F6C58E" locked="0" code="direction = 180&#xA;projectile_speed = 6&#xA;cannon_refire_rate= 45&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Cannon" x="480" y="1168" name="inst_51F6C58E" locked="0" code="direction = 180&#xA;projectile_speed = 6&#xA;cannon_refire_rate= 25&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spikes" x="208" y="1264" name="inst_4A388435" locked="0" code="spike_speed = 4&#xA;spike_delay = 30&#xA;spike_move_time = 50&#xA;spike_can_move = true&#xA;spike_direction = 180&#xA;" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="256" y="1024" name="inst_48A4496B" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="32" y="832" name="inst_79B78878" locked="0" code="" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
@@ -68,10 +68,10 @@
     <instance objName="Platform" x="176" y="928" name="inst_2161F500" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Patrol_Path" x="144" y="928" name="inst_F4F9F285" locked="0" code="" scaleX="30" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="400" y="1504" name="inst_B06A9CA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="512" y="1440" name="inst_926449D8" locked="0" code="destination_room = Room_1_10&#xA;destination_x = 16&#xA;destination_y = 736&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-16" y="768" name="inst_6D614D66" locked="0" code="destination_room = Room_1_8&#xA;destination_x = 976&#xA;destination_y = 352&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="512" y="1440" name="inst_926449D8" locked="0" code="destination_room = Room_1_10&#xA;destination_x = 16&#xA;destination_y = 736" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-16" y="768" name="inst_6D614D66" locked="0" code="destination_room = Room_1_8&#xA;destination_x = 976&#xA;destination_y = 352" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Spikes" x="384" y="896" name="inst_C9D07556" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="512" y="768" name="inst_16960F8F" locked="0" code="destination_room = Room_1_13&#xA;destination_x = 32&#xA;destination_y = 320&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="512" y="768" name="inst_16960F8F" locked="0" code="destination_room = Room_1_13&#xA;destination_x = 32&#xA;destination_y = 320" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

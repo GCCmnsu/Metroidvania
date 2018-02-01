@@ -117,7 +117,8 @@ view_yview[0] = y - (view_hview[0] / 2);
             <kind>1</kind>
             <string>global.checkpoint_x = other.x;
 global.checkpoint_y = other.y;
-global.checkpoint_room = room
+global.checkpoint_room = room;
+global.player_health = global.player_health_max;
 </string>
           </argument>
         </arguments>
@@ -253,6 +254,50 @@ global.refire_timer = 0;
 global.player_upgrade_jump = false // true if can jump
 global.player_upgrade_doublejump = false // true if can jump
 global.player_upgrade_cannon = false //if the player has the ability to shoot
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Debug mode cheats
+if debug_mode
+{
+global.player_health = 3
+global.player_health_max = 3
+global.player_iframes = 1000000000  //number of invulnerability frames. 
+
+// jumping related variables
+global.player_vertical_speed = 0;
+global.player_gravity = .45
+global.player_isfalling = false
+global.player_jump_height = 0;
+global.player_jump_speed = -10.5;
+
+global.player_doublejump = false // true if can doublejump
+
+global.refire_rate = 25;
+global.refire_timer = 0;
+
+//upgrade flags
+global.player_upgrade_jump = true // true if can jump
+global.player_upgrade_doublejump = true // true if can jump
+global.player_upgrade_cannon = true //if the player has the ability to shoot
+}
 </string>
           </argument>
         </arguments>

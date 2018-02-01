@@ -55,28 +55,27 @@
     <instance objName="Wall" x="0" y="352" name="inst_616700A0" locked="0" code="" scaleX="50" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-32" y="224" name="inst_C94C85F5" locked="0" code="destination_room = Room_1_7&#xA;destination_x = 1984&#xA;destination_y = 224" scaleX="4" scaleY="16" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="96" y="96" name="inst_3757DAF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="32" y="192" name="inst_3AE568D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="32" y="160" name="inst_1A8C6D4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="32" y="128" name="inst_1BD17619" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="32" y="96" name="inst_707C738B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="32" y="64" name="inst_55F10378" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="32" y="32" name="inst_F09CB666" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="0" name="inst_A0A95326" locked="0" code="" scaleX="2" scaleY="14" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="0" name="inst_E0388826" locked="0" code="" scaleX="50" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="768" y="32" name="inst_58A04591" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="768" y="64" name="inst_F4C2642B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="768" y="96" name="inst_6E075A43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="768" y="128" name="inst_5274DB9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="768" y="160" name="inst_F54D2639" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="768" y="192" name="inst_98AD53B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="768" y="224" name="inst_D07A09B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="768" y="256" name="inst_AF7C6C6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="768" y="288" name="inst_8E158F06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="768" y="320" name="inst_1CA10D94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="768" y="352" name="inst_D0B1DD72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="160" y="352" name="inst_FE0CF541" locked="0" code="spring_jump_speed = -16&#xA;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="608" y="352" name="inst_59B07BE7" locked="0" code="spring_jump_speed = -16&#xA;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Jump_Upgrade" x="384" y="224" name="inst_1847871B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Stat_Spike" x="64" y="32" name="inst_FEDE5955" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="64" y="96" name="inst_0E63A398" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="64" y="64" name="inst_3E2BEE82" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="64" y="128" name="inst_C6895B6B" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="64" y="160" name="inst_FF6E46C7" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="64" y="192" name="inst_61612242" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="736" y="64" name="inst_76D05528" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="736" y="96" name="inst_F62E894A" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="736" y="128" name="inst_A2A8795B" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="736" y="160" name="inst_33A81B79" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="736" y="192" name="inst_FB06ECB3" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="736" y="224" name="inst_138722CD" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="736" y="256" name="inst_1BABCECD" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="736" y="288" name="inst_8DD0A8EA" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="736" y="320" name="inst_9D962A24" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="736" y="352" name="inst_AF2FD81A" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="90"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
