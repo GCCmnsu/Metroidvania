@@ -68,6 +68,8 @@
     <instance objName="Exit_Room" x="-16" y="672" name="inst_6A590742" locked="0" code="destination_room = Room_1_11&#xA;destination_x = 992&#xA;destination_y = 352&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-16" y="160" name="inst_ADB5922D" locked="0" code="destination_room = Room_1_10&#xA;destination_x = 736&#xA;destination_y = 736&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="512" y="672" name="inst_331DD3D1" locked="0" code="destination_room = Room_1_14&#xA;destination_x = 32&#xA;destination_y = 336&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy" x="256" y="448" name="inst_D644E36D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="144" y="416" name="inst_4D1F6BD9" locked="0" code="" scaleX="28" scaleY="4" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

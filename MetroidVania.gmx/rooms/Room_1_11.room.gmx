@@ -58,11 +58,11 @@
     <instance objName="Player" x="64" y="352" name="inst_93021D94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="144" y="288" name="inst_1D51A450" locked="0" code="" scaleX="5" scaleY="4.26666688919067" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="320" y="224" name="inst_1EC2E785" locked="0" code="" scaleX="4" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="256" y="208" name="inst_D1430B9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="432" y="208" name="inst_7B83292F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spikes" x="256" y="208" name="inst_D1430B9F" locked="0" code="spike_direction = 270&#xA;spike_delay = 2&#xA;spike_move_time = 200&#xA;spike_can_move = true&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spikes" x="432" y="208" name="inst_7B83292F" locked="0" code="spike_direction = 270&#xA;spike_delay = 2&#xA;spike_move_time = 200&#xA;spike_can_move = true&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="480" y="240" name="inst_8D8C28CF" locked="0" code="" scaleX="4" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="752" y="272" name="inst_CB0479A8" locked="0" code="" scaleX="6" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="736" y="336" name="inst_1C3B8D22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spikes" x="736" y="336" name="inst_1C3B8D22" locked="0" code="spike_speed = 6&#xA;spike_delay = 10&#xA;spike_move_time = 200&#xA;spike_can_move = true&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-16" y="288" name="inst_9C69A857" locked="0" code="destination_room = Room_1_6&#xA;destination_x = 480&#xA;destination_y = 288&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="1024" y="288" name="inst_C176576D" locked="0" code="destination_room = Room_1_12&#xA;destination_x = 32&#xA;destination_y = 736&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>
