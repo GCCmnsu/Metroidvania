@@ -19,6 +19,7 @@
       <sprite>sprites\spr_Enemy</sprite>
       <sprite>sprites\spr_Charger</sprite>
       <sprite>sprites\spr_Flamethrower</sprite>
+      <sprite>sprites\spr_Wanderer</sprite>
     </sprites>
     <sprites name="Environment_Sprites">
       <sprite>sprites\spr_Spring</sprite>
@@ -64,6 +65,7 @@
       <object>objects\Patrol_Path</object>
       <object>objects\Enemy_Chaser</object>
       <object>objects\Enemy_Charger</object>
+      <object>objects\Enemy_Wanderer</object>
     </objects>
     <object>objects\Wall</object>
     <object>objects\Spring</object>
@@ -87,10 +89,10 @@
     <object>objects\Stat_Spike</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room0</room>
     <room>rooms\Start_Room</room>
     <room>rooms\Save_Room</room>
     <room>rooms\TEST</room>
-    <room>rooms\room0</room>
     <room>rooms\Long_Hall_template</room>
     <room>rooms\Long_Climb_template</room>
     <room>rooms\Secret_Room_template</room>
