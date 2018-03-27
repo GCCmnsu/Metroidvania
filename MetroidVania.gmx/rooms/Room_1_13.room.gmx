@@ -71,9 +71,10 @@
     <instance objName="Lava" x="832" y="320" name="inst_23C271EE" locked="0" code="" scaleX="20" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Lava" x="288" y="288" name="inst_6448E348" locked="0" code="" scaleX="10" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="Platform" x="896" y="256" name="inst_A9DDA365" locked="0" code="" scaleX="1.80645155906677" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-32" y="288" name="inst_3691369D" locked="0" code="destination_room = Room_1_9&#xA;destination_x = 480&#xA;destination_y = 816&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="2048" y="288" name="inst_CE8CC376" locked="0" code="destination_room = Room_1_16&#xA;destination_x = 32&#xA;destination_y = 112&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="1344" y="320" name="inst_C5CB2E25" locked="0" code="" scaleX="28" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-32" y="288" name="inst_3691369D" locked="0" code="destination_room = Room_1_9&#xA;destination_x = 464&#xA;destination_y = 832&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="2048" y="288" name="inst_CE8CC376" locked="0" code="destination_room = Room_1_16&#xA;destination_x = 32&#xA;destination_y = 128&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="1344" y="352" name="inst_04C1F762" locked="0" code="" scaleX="28" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="896" y="256" name="inst_B609D944" locked="0" code="" scaleX="24" scaleY="4" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

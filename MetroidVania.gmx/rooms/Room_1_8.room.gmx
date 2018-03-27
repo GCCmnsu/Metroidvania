@@ -62,7 +62,7 @@
     <instance objName="Lava" x="608" y="272" name="inst_D90F862B" locked="0" code="" scaleX="13" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="816" y="224" name="inst_334B843E" locked="0" code="" scaleX="3" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="864" y="288" name="inst_B9AC3D4E" locked="0" code="" scaleX="3" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="Tracking_Cannon" x="368" y="48" name="inst_14E4FD2A" locked="0" code="cannon_refire_rate = 40;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Tracking_Cannon" x="368" y="48" name="inst_14E4FD2A" locked="0" code="cannon_refire_rate = 35;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="1024" y="288" name="inst_3F1A71F2" locked="0" code="destination_room = Room_1_9&#xA;destination_x = 16&#xA;destination_y = 832&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-16" y="288" name="inst_CC414ACF" locked="0" code="destination_room = Room_1_2&#xA;destination_x = 480&#xA;destination_y = 96&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>

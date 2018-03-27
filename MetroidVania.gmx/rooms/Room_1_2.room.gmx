@@ -64,7 +64,7 @@
     <instance objName="Spring" x="80" y="448" name="inst_82872529" locked="0" code="spring_jump_speed = -16&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="368" y="672" name="inst_A59ECE55" locked="0" code="spring_jump_speed = -16&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Patrol_Path" x="48" y="928" name="inst_5FB3725C" locked="0" code="" scaleX="48" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy_Patrol" x="64" y="928" name="inst_1FE26436" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy_Patrol" x="416" y="928" name="inst_1FE26436" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="432" y="928" name="inst_F5E452DF" locked="0" code="spring_jump_speed = -16&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-16" y="864" name="inst_E0F3CA89" locked="0" code="destination_room = Room_1_3&#xA;destination_x = 656&#xA;destination_y = 96" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-16" y="32" name="inst_FBFB8316" locked="0" code="destination_room = Room_1_1&#xA;destination_x = 1120&#xA;destination_y = 352" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>

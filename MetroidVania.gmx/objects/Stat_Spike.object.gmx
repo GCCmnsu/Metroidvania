@@ -47,9 +47,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(Player) //kill player
-    {
-    Kill_Player();
+            <string>if !debug_mode
+{
+    with(Player) //kill player
+        {
+        Kill_Player();
+        }
     }
 </string>
           </argument>

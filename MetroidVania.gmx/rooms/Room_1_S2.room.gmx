@@ -57,7 +57,7 @@
     <instance objName="Wall" x="0" y="272" name="inst_AA0D9C09" locked="0" code="" scaleX="23" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="64" y="96" name="inst_941920FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CheckPoint" x="192" y="272" name="inst_23A89498" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-16" y="208" name="inst_A03B9F05" locked="0" code="destination_room = Room_1_15&#xA;destination_x = 464&#xA;destination_y = 400" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-16" y="208" name="inst_A03B9F05" locked="0" code="destination_room = Room_1_15&#xA;destination_x = 464&#xA;destination_y = 416&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

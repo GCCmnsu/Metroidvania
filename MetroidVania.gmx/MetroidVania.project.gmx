@@ -40,6 +40,7 @@
     </sprites>
     <sprites name="Other_Sprites">
       <sprite>sprites\spr_Patrol</sprite>
+      <sprite>sprites\spr_Exit_room</sprite>
       <sprite>sprites\spr_CheckPoint</sprite>
       <sprite>sprites\spr_Sign</sprite>
       <sprite>sprites\spr_Player_Shot</sprite>
@@ -89,8 +90,9 @@
     <object>objects\Stat_Spike</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\Room_1_15</room>
     <room>rooms\Start_Room</room>
+    <room>rooms\room0</room>
     <room>rooms\Save_Room</room>
     <room>rooms\TEST</room>
     <room>rooms\Long_Hall_template</room>
@@ -117,7 +119,6 @@
         <room>rooms\Room_1_12</room>
         <room>rooms\Room_1_13</room>
         <room>rooms\Room_1_14</room>
-        <room>rooms\Room_1_15</room>
         <room>rooms\Room_1_16</room>
         <room>rooms\Room_1_17</room>
         <room>rooms\Room_1_S2</room>

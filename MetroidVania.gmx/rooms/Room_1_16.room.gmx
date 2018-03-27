@@ -58,16 +58,45 @@
     <instance objName="Wall" x="224" y="576" name="inst_F452ECA3" locked="0" code="" scaleX="4" scaleY="12" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="32" y="640" name="inst_4CBCD9AB" locked="0" code="" scaleX="4" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="416" y="640" name="inst_7F5DC54C" locked="0" code="" scaleX="4" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="224" y="672" name="inst_C1987D76" locked="0" code="" scaleX="0.75" scaleY="5.75" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="288" y="672" name="inst_D76CC0F6" locked="0" code="" scaleX="-0.636363625526428" scaleY="5.5625" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="224" y="576" name="inst_E16E8958" locked="0" code="spring_jump_speed = -23&#xA;" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="32" y="128" name="inst_D5DFDADF" locked="0" code="" scaleX="4" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="64" y="736" name="inst_C39B19CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Spikes" x="240" y="32" name="inst_B2901A62" locked="0" code="" scaleX="6.46875" scaleY="1.32258069515228" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-16" y="672" name="inst_46C9640C" locked="0" code="destination_room = Room_1_15&#xA;destination_x = 464&#xA;destination_y = 144&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-16" y="672" name="inst_46C9640C" locked="0" code="destination_room = Room_1_15&#xA;destination_x = 464&#xA;destination_y = 160&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="32" name="inst_ABA05BF2" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-16" y="64" name="inst_2510BC8E" locked="0" code="destination_room = Room_1_13&#xA;destination_x = 1984&#xA;destination_y = 320&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="512" y="672" name="inst_AAF2276D" locked="0" code="destination_room = Room_1_17&#xA;destination_x = 32&#xA;destination_y = 336&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-16" y="64" name="inst_2510BC8E" locked="0" code="destination_room = Room_1_13&#xA;destination_x = 1984&#xA;destination_y = 352&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="512" y="672" name="inst_AAF2276D" locked="0" code="destination_room = Room_1_17&#xA;destination_x = 32&#xA;destination_y = 352&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Stat_Spike" x="208" y="608" name="inst_956F0049" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="208" y="624" name="inst_585DF952" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="208" y="640" name="inst_4EBF8EFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="208" y="656" name="inst_D159007C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="208" y="672" name="inst_AE62864A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="208" y="688" name="inst_81FA2DD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="208" y="704" name="inst_463FF3CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="208" y="720" name="inst_E191A2C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="208" y="736" name="inst_66C39D24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="Stat_Spike" x="304" y="592" name="inst_B3107EEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="304" y="608" name="inst_769EBCAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="304" y="640" name="inst_220279DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="304" y="624" name="inst_A45C9293" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="304" y="656" name="inst_5155C1EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="304" y="672" name="inst_572E8D09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="304" y="688" name="inst_C28DB1B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="304" y="704" name="inst_0CD39A85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="304" y="720" name="inst_A493815A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="Stat_Spike" x="288" y="48" name="inst_FF83E856" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="304" y="48" name="inst_1A153DB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="320" y="48" name="inst_D24B47F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="336" y="48" name="inst_4301D6D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="352" y="48" name="inst_ACF75193" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="368" y="48" name="inst_ADD9C523" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="272" y="48" name="inst_460CC985" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="192" y="48" name="inst_BB1494FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="208" y="48" name="inst_E776D9D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="224" y="48" name="inst_96769E3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="256" y="48" name="inst_A1CBEE8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="240" y="48" name="inst_A7DA4445" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="160" y="48" name="inst_CAB421A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="Stat_Spike" x="176" y="48" name="inst_17168CB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

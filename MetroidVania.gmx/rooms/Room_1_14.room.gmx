@@ -66,13 +66,13 @@
     <instance objName="Platform" x="576" y="224" name="inst_35784AA1" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Platform" x="832" y="272" name="inst_0C78AFDC" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Enemy_Patrol" x="480" y="256" name="inst_E7EEADD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="1024" y="288" name="inst_EE19CB55" locked="0" code="destination_room = Room_1_15&#xA;destination_x = 32&#xA;destination_y = 400&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-16" y="288" name="inst_EC852173" locked="0" code="destination_room = Room_1_12&#xA;destination_x = 464&#xA;destination_y = 720&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="144" y="240" name="inst_0359FA77" locked="0" code="" scaleX="18" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="288" y="272" name="inst_BF36F2CA" locked="0" code="" scaleX="18" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="544" y="224" name="inst_1467D72D" locked="0" code="" scaleX="20" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="704" y="272" name="inst_3BE8854A" locked="0" code="" scaleX="20" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Patrol_Path" x="448" y="240" name="inst_9F8C98FA" locked="0" code="" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="1024" y="288" name="inst_EE19CB55" locked="0" code="destination_room = Room_1_15&#xA;destination_x = 32&#xA;destination_y = 416&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-16" y="288" name="inst_EC852173" locked="0" code="destination_room = Room_1_12&#xA;destination_x = 464&#xA;destination_y = 736&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="144" y="240" name="inst_C41261C0" locked="0" code="" scaleX="16" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="288" y="272" name="inst_C87D1897" locked="0" code="" scaleX="18" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="544" y="224" name="inst_864F1CA4" locked="0" code="" scaleX="16" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="704" y="272" name="inst_AF0BF9B4" locked="0" code="" scaleX="20" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="448" y="256" name="inst_D9B9D60E" locked="0" code="" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

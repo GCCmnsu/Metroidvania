@@ -55,7 +55,7 @@
     <instance objName="Wall" x="0" y="0" name="inst_FAB84E1A" locked="0" code="" scaleX="64" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="992" y="0" name="inst_18F74B82" locked="0" code="" scaleX="2" scaleY="66" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="1120" name="inst_CA72F21B" locked="0" code="" scaleX="64" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-32" y="1056" name="inst_E7E67BEA" locked="0" code="destination_room = Room_1_17&#xA;destination_x = 976&#xA;destination_y = 336&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-32" y="1056" name="inst_E7E67BEA" locked="0" code="destination_room = Room_1_17&#xA;destination_x = 976&#xA;destination_y = 352&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="1024" y="1056" name="inst_FCACA0A2" locked="0" code="destination_room = Room_1_18&#xA;destination_x = 16&#xA;destination_y = 336&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
