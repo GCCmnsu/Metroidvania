@@ -23,6 +23,10 @@
     </sprites>
     <sprites name="Environment_Sprites">
       <sprite>sprites\spr_Spring</sprite>
+      <sprites name="Magnet">
+        <sprite>sprites\spr_Magnet_Base</sprite>
+        <sprite>sprites\spr_magnet_beam</sprite>
+      </sprites>
       <sprite>sprites\spr_Spikes_Piston</sprite>
       <sprite>sprites\spr_Conveyor</sprite>
       <sprite>sprites\spr_Platform</sprite>
@@ -69,6 +73,7 @@
       <object>objects\Enemy_Wanderer</object>
     </objects>
     <object>objects\Wall</object>
+    <object>objects\magnet_beam</object>
     <object>objects\Spring</object>
     <object>objects\CheckPoint</object>
     <object>objects\Spikes</object>
@@ -77,7 +82,7 @@
     <object>objects\Platform</object>
     <object>objects\Flamethrower</object>
     <object>objects\Flames</object>
-    <object>objects\Magnet</object>
+    <object>objects\Magnet_base</object>
     <object>objects\Door</object>
     <object>objects\Cannon</object>
     <object>objects\Plasma</object>
