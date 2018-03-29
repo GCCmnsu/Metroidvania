@@ -95,7 +95,6 @@
     <object>objects\Stat_Spike</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Room_1_15</room>
     <room>rooms\Start_Room</room>
     <room>rooms\room0</room>
     <room>rooms\Save_Room</room>
@@ -124,6 +123,7 @@
         <room>rooms\Room_1_12</room>
         <room>rooms\Room_1_13</room>
         <room>rooms\Room_1_14</room>
+        <room>rooms\Room_1_15</room>
         <room>rooms\Room_1_16</room>
         <room>rooms\Room_1_17</room>
         <room>rooms\Room_1_S2</room>
