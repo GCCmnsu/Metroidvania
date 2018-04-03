@@ -2,7 +2,7 @@
 <room>
   <caption></caption>
   <width>512</width>
-  <height>768</height>
+  <height>640</height>
   <vsnap>16</vsnap>
   <hsnap>16</hsnap>
   <isometric>0</isometric>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="Player" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -57,7 +57,7 @@
     <instance objName="Wall" x="0" y="608" name="inst_F7F73C17" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="480" y="160" name="inst_176D5C26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="480" y="416" name="inst_01C03012" locked="0" code="" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="512" y="128" name="inst_1C61B43B" locked="0" code="destination_room = Room_1_3&#xA;destination_x = 16&#xA;destination_y = 96" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="512" y="128" name="inst_1C61B43B" locked="0" code="destination_room = Room_1_3&#xA;destination_x = 32&#xA;destination_y = 160&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="320" y="192" name="inst_0B6D86B0" locked="0" code="" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="256" y="416" name="inst_F37B2503" locked="0" code="" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="32" y="528" name="inst_7279F683" locked="0" code="spring_jump_speed = -13&#xA;" scaleX="10" scaleY="5" colour="4294967295" rotation="0"/>
@@ -65,7 +65,7 @@
     <instance objName="Spring" x="208" y="608" name="inst_4FA2E95D" locked="0" code="spring_jump_speed = -10&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="144" y="528" name="inst_AECFEC2A" locked="0" code="spring_jump_speed = -13&#xA;" scaleX="-2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Enemy_Patrol" x="304" y="608" name="inst_77B76549" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="512" y="352" name="inst_EC909C26" locked="0" code="destination_room = Room_1_S1&#xA;destination_x = 16&#xA;destination_y = 272&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="512" y="352" name="inst_EC909C26" locked="0" code="destination_room = Room_1_S1&#xA;destination_x = 32&#xA;destination_y = 352&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="512" y="544" name="inst_8CEB3A92" locked="0" code="destination_room = Room_1_5&#xA;destination_x = 16&#xA;destination_y = 96&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="192" y="192" name="inst_0CC25B81" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="112" y="304" name="inst_542EE7FD" locked="0" code="spring_jump_speed = -11" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>

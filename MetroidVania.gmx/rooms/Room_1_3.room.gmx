@@ -2,7 +2,7 @@
 <room>
   <caption></caption>
   <width>688</width>
-  <height>320</height>
+  <height>384</height>
   <vsnap>16</vsnap>
   <hsnap>16</hsnap>
   <isometric>0</isometric>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="Player" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -51,18 +51,20 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Wall" x="0" y="96" name="inst_7BC33CE8" locked="0" code="" scaleX="2" scaleY="12" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="656" y="96" name="inst_D47A51A7" locked="0" code="" scaleX="2" scaleY="14" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="0" y="288" name="inst_FBFE6F25" locked="0" code="" scaleX="43" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Lava" x="32" y="192" name="inst_7EAB8C9E" locked="0" code="" scaleX="39" scaleY="6" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="32" y="96" name="inst_DDB32EEB" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Patrol_Path" x="128" y="96" name="inst_02BE4A6E" locked="0" code="" scaleX="52" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Player" x="624" y="80" name="inst_E29AEAB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="688" y="16" name="inst_41727553" locked="0" code="destination_room = Room_1_2&#xA;destination_x = 32&#xA;destination_y = 928&#xA;" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-16" y="16" name="inst_96D21C12" locked="0" code="destination_room = Room_1_4&#xA;destination_x = 448&#xA;destination_y = 192&#xA;" scaleX="2" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="Platform" x="512" y="96" name="inst_CDD142D7" locked="0" code="platform_speed = 3&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="560" y="96" name="inst_82A22034" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="0" y="0" name="inst_1543B1ED" locked="0" code="" scaleX="43" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="0" y="160" name="inst_7BC33CE8" locked="0" code="" scaleX="2" scaleY="12" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="656" y="160" name="inst_D47A51A7" locked="0" code="" scaleX="2" scaleY="14" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="0" y="352" name="inst_FBFE6F25" locked="0" code="" scaleX="43" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Lava" x="32" y="256" name="inst_7EAB8C9E" locked="0" code="" scaleX="39" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="32" y="160" name="inst_DDB32EEB" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="128" y="160" name="inst_02BE4A6E" locked="0" code="" scaleX="52" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Player" x="624" y="144" name="inst_E29AEAB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="688" y="80" name="inst_41727553" locked="0" code="destination_room = Room_1_2&#xA;destination_x = 32&#xA;destination_y = 928&#xA;" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-16" y="80" name="inst_96D21C12" locked="0" code="destination_room = Room_1_4&#xA;destination_x = 448&#xA;destination_y = 192&#xA;" scaleX="2" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="Platform" x="512" y="160" name="inst_CDD142D7" locked="0" code="platform_speed = 3&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="560" y="160" name="inst_82A22034" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="0" y="0" name="inst_C46C0F85" locked="0" code="" scaleX="43" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="656" y="32" name="inst_27390534" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="0" y="32" name="inst_7F047987" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
