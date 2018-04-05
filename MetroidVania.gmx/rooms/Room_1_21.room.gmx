@@ -63,12 +63,15 @@
     <instance objName="Platform" x="160" y="176" name="inst_EB6560EA" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Platform" x="352" y="336" name="inst_359033D3" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Platform" x="160" y="528" name="inst_248BC3E5" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Cannon" x="464" y="224" name="inst_1D12E94A" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="Cannon" x="464" y="224" name="inst_1D12E94A" locked="0" code="direction = 180&#xA;" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="Cannon" x="48" y="288" name="inst_5CE3F26B" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
-    <instance objName="Cannon" x="464" y="400" name="inst_42D42867" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="Cannon" x="464" y="400" name="inst_42D42867" locked="0" code="direction = 180&#xA;" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="Cannon" x="48" y="464" name="inst_97377477" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="512" y="32" name="inst_3D3C063A" locked="0" code="destination_room = Room_1_2&#xA;destination_x = 32&#xA;destination_y = 336&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-16" y="544" name="inst_D2D4290A" locked="0" code="destination_room = Room_1_22&#xA;destination_x = 1472&#xA;destination_y = 272&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-16" y="544" name="inst_D2D4290A" locked="0" code="destination_room = Room_1_22&#xA;destination_x = 1472&#xA;destination_y = 352&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="96" y="176" name="inst_599B5DFB" locked="0" code="" scaleX="22" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="256" y="336" name="inst_107C5A9A" locked="0" code="" scaleX="24" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Patrol_Path" x="96" y="528" name="inst_B0B02729" locked="0" code="" scaleX="24" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

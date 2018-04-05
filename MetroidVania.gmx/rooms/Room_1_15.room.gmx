@@ -90,8 +90,8 @@
     <instance objName="Exit_Room" x="512" y="352" name="inst_ADC97A84" locked="0" code="destination_room = Room_1_S2&#xA;destination_x = 32&#xA;destination_y = 352&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-16" y="352" name="inst_38DC12E7" locked="0" code="destination_room = Room_1_14&#xA;destination_x = 976&#xA;destination_y = 352&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="512" y="96" name="inst_8747AE2F" locked="0" code="destination_room = Room_1_16&#xA;destination_x = 48&#xA;destination_y = 736&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="512" y="1440" name="inst_AF660D5B" locked="0" code="destination_room = Room_1_22&#xA;destination_x = 32&#xA;destination_y = 272" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-16" y="1440" name="inst_59BC70AD" locked="0" code="destination_room = Room_1_23&#xA;destination_x = 976&#xA;destination_y = 336" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="512" y="1440" name="inst_AF660D5B" locked="0" code="destination_room = Room_1_22&#xA;destination_x = 32&#xA;destination_y = 352&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-16" y="1440" name="inst_59BC70AD" locked="0" code="destination_room = Room_1_23&#xA;destination_x = 976&#xA;destination_y = 352&#xA;" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Patrol_Path" x="112" y="1440" name="inst_3BCA3B51" locked="0" code="" scaleX="12" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Patrol_Path" x="320" y="1280" name="inst_F8FBB0BB" locked="0" code="" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Patrol_Path" x="112" y="1088" name="inst_F78A980B" locked="0" code="" scaleX="12" scaleY="2" colour="4294967295" rotation="0"/>

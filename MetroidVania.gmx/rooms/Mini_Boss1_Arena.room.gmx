@@ -54,7 +54,6 @@
     <instance objName="Wall" x="768" y="0" name="inst_4D0F7020" locked="0" code="" scaleX="2" scaleY="24" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="352" name="inst_616700A0" locked="0" code="" scaleX="50" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-32" y="224" name="inst_C94C85F5" locked="0" code="destination_room = Room_1_7&#xA;destination_x = 1984&#xA;destination_y = 224" scaleX="4" scaleY="16" colour="4294967295" rotation="0"/>
-    <instance objName="Player" x="96" y="96" name="inst_3757DAF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="0" name="inst_A0A95326" locked="0" code="" scaleX="2" scaleY="14" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="0" y="0" name="inst_E0388826" locked="0" code="" scaleX="50" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Spring" x="160" y="352" name="inst_FE0CF541" locked="0" code="spring_jump_speed = -16&#xA;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
