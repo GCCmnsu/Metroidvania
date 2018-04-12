@@ -141,10 +141,15 @@
       <room>rooms\Mini_Boss1_Arena</room>
     </rooms>
     <rooms name="Level2 (Assembly)">
-      <room>rooms\Room_2_1</room>
-      <room>rooms\Room_2_2</room>
-      <room>rooms\Room_2_3</room>
-      <room>rooms\Room_2_4</room>
+      <rooms name="PreMini">
+        <room>rooms\Room_2_1</room>
+        <room>rooms\Room_2_2</room>
+        <room>rooms\Room_2_3</room>
+        <room>rooms\Room_2_4</room>
+        <room>rooms\Room_2_5</room>
+        <room>rooms\Room_2_6</room>
+        <room>rooms\Room_2_7</room>
+      </rooms>
     </rooms>
   </rooms>
   <help>
