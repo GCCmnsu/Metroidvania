@@ -76,7 +76,7 @@
     <instance objName="magnet_beam" x="416" y="64" name="inst_1F167762" locked="0" code="" scaleX="4" scaleY="62" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-32" y="1056" name="inst_68293638" locked="0" code="destination_room = Room_2_6&#xA;destination_x = 960&#xA;destination_y = 224&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-32" y="96" name="inst_5A27EA94" locked="0" code="destination_room = Room_2_4&#xA;destination_x = 960&#xA;destination_y = 288&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-32" y="544" name="inst_0B05CCEF" locked="0" code="destination_room = Room_2_S1&#xA;destination_x = 32&#xA;destination_y = 352&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-32" y="544" name="inst_0B05CCEF" locked="0" code="destination_room = Room_2_S1&#xA;destination_x = 32&#xA;destination_y = 352" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="512" y="992" name="inst_6B10F0ED" locked="0" code="destination_room = Room_2_17&#xA;destination_x = 32&#xA;destination_y = 352&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Enemy_Patrol" x="288" y="256" name="inst_1AF5FB8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Patrol_Path" x="224" y="256" name="inst_75A61E75" locked="0" code="" scaleX="20" scaleY="4" colour="4294967295" rotation="0"/>

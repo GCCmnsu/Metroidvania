@@ -84,8 +84,8 @@
     <instance objName="Conveyor" x="320" y="608" name="inst_4BBD8943" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-32" y="64" name="inst_A24938C0" locked="0" code="destination_room = Room_2_2&#xA;destination_x = 960&#xA;destination_y = 96&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="512" y="672" name="inst_6A8CB4FC" locked="0" code="destination_room = Room_2_4&#xA;destination_x = 32&#xA;destination_y = 224&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="-32" y="672" name="inst_F74136B0" locked="0" code="destination_room = Room_2_13&#xA;destination_x = 32&#xA;destination_y = 352&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="512" y="64" name="inst_E2F641C5" locked="0" code="destination_room = Room_2_14&#xA;destination_x = 32&#xA;destination_y = 352&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="-32" y="672" name="inst_F74136B0" locked="0" code="destination_room = Room_2_13&#xA;destination_x = 1440&#xA;destination_y = 192&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="512" y="64" name="inst_E2F641C5" locked="0" code="destination_room = Room_2_14&#xA;destination_x = 64&#xA;destination_y = 228&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

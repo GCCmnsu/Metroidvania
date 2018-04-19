@@ -150,11 +150,18 @@
         <room>rooms\Room_2_6</room>
         <room>rooms\Room_2_7</room>
         <room>rooms\Room_2_8</room>
+        <room>rooms\Room_2_S1</room>
       </rooms>
       <rooms name="PostMini">
         <room>rooms\Room_2_9</room>
         <room>rooms\Room_2_10</room>
-        <room>rooms\room48</room>
+        <room>rooms\Room_2_11</room>
+        <room>rooms\Room_2_12</room>
+        <room>rooms\Room_2_13</room>
+        <room>rooms\Room_2_14</room>
+        <room>rooms\Room_2_15</room>
+        <room>rooms\Room_2_16</room>
+        <room>rooms\Room_2_S2</room>
       </rooms>
       <room>rooms\Mini_Boss2_Arena</room>
     </rooms>
