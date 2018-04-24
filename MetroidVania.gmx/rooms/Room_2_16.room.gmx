@@ -42,13 +42,13 @@
   </backgrounds>
   <views>
     <view visible="-1" objName="Player" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
     <instance objName="Player" x="64" y="128" name="inst_272DC500" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -64,7 +64,7 @@
     <instance objName="Wall" x="0" y="32" name="inst_3809C592" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="-32" y="64" name="inst_A35FE132" locked="0" code="destination_room = Room_2_15 //room where exit sends you&#xA;destination_x = 960; //where you'll start in the next room&#xA;destination_y = 160; //where you'll start in the next room&#xA;" scaleX="4" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Exit_Room" x="512" y="480" name="inst_AD5DDE96" locked="0" code="destination_room = Room_2_S2 //room where exit sends you&#xA;destination_x = 64; //where you'll start in the next room&#xA;destination_y = 352; //where you'll start in the next room&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="Exit_Room" x="512" y="928" name="inst_1BAE729A" locked="0" code="destination_room = Room_2_17 //room where exit sends you&#xA;destination_x = 0; //where you'll start in the next room&#xA;destination_y = 0; //where you'll start in the next room&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="Exit_Room" x="512" y="928" name="inst_1BAE729A" locked="0" code="destination_room = Room_2_17 //room where exit sends you&#xA;destination_x = 64; //where you'll start in the next room&#xA;destination_y = 384; //where you'll start in the next room&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Spikes" x="96" y="832" name="inst_77DAEF3C" locked="0" code="spike_direction = 90; //direction the spike moves in&#xA;&#xA;spike_speed = 4; //how fast the spike moves&#xA;&#xA;spike_move_time = 120; //how long the spike can move before reversing&#xA;spike_delay = 60; //delay when spike reaches endpoint&#xA;&#xA;spike_can_move = true //if the spike has moving enabled&#xA;" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="Spikes" x="416" y="672" name="inst_83BD6928" locked="0" code="spike_direction = 270; //direction the spike moves in&#xA;&#xA;spike_speed = 4; //how fast the spike moves&#xA;&#xA;spike_move_time = 120; //how long the spike can move before reversing&#xA;spike_delay = 60; //delay when spike reaches endpoint&#xA;&#xA;spike_can_move = true //if the spike has moving enabled&#xA;" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="Spikes" x="96" y="256" name="inst_D24735B2" locked="0" code="spike_direction = 90; //direction the spike moves in&#xA;&#xA;spike_speed = 4; //how fast the spike moves&#xA;&#xA;spike_move_time = 120; //how long the spike can move before reversing&#xA;spike_delay = 60; //delay when spike reaches endpoint&#xA;&#xA;spike_can_move = true //if the spike has moving enabled&#xA;" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>

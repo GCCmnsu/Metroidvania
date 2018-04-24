@@ -38,6 +38,7 @@
       <sprite>sprites\spr_Spikes</sprite>
       <sprite>sprites\spr_Stat_Spike</sprite>
       <sprite>sprites\spr_Wall</sprite>
+      <sprite>sprites\spr_Breakable_Wall</sprite>
     </sprites>
     <sprites name="MiniBoss_Sprites">
       <sprite>sprites\spr_MiniBoss1</sprite>
@@ -93,6 +94,7 @@
     <object>objects\Jump_Upgrade</object>
     <object>objects\Display_Sign</object>
     <object>objects\Stat_Spike</object>
+    <object>objects\Breakable_Wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Room</room>
@@ -162,8 +164,10 @@
         <room>rooms\Room_2_15</room>
         <room>rooms\Room_2_16</room>
         <room>rooms\Room_2_S2</room>
+        <room>rooms\Room_2_17</room>
       </rooms>
       <room>rooms\Mini_Boss2_Arena</room>
+      <room>rooms\Main_Boss2_Arena</room>
     </rooms>
   </rooms>
   <help>
